@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="spotifylogo.png" alt="spotify">Spotify</li>
+            <li>Home</li>
+            <li>About US</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="songlist">
+            <h1>Best song ever</h1>
+            <div class="songitemcontainer">
+                <div class="songitem">
+                    <img src="./colorful-3077112_1920.jpg" alt="1" >
+                    <span >Tu Aake Dekhle</span>
+                    <span class="time">05:35</span>
+                    <span class="songlistplay"><i id="1" class="far songitemplay fa-3x fa-circle-play"></i></span>
+                </div>
+                <div class="songitem">
+                    <img src="./colorful-3077112_1920.jpg" alt="1" >
+                    <span >Main Dhoondne Ko Zamaane mein</span>
+                    <span class="time">05:35</span>
+                    <span class="songlistplay"><i id="2" class="far songitemplay fa-3x fa-circle-play"></i></span>
+                </div>
+                <div class="songitem">
+                    <img src="./colorful-3077112_1920.jpg" alt="1" >
+                    <span >Galti</span>
+                    <span class="time">05:35</span>
+                    <span class="songlistplay"><i id="3" class="far songitemplay fa-3x fa-circle-play"></i></span>
+                </div>
+                <div class="songitem">
+                    <img src="./colorful-3077112_1920.jpg" alt="1" >
+                    <span >Tere ishq mein</span>
+                    <span class="time">05:35</span>
+                    <span class="songlistplay"><i id="4" class="far songitemplay fa-3x fa-circle-play"></i></span>
+                </div>
+                <div class="songitem">
+                    <img src="./colorful-3077112_1920.jpg" alt="1" >
+                    <span >Let me Down Slowly</span>
+                    <span class="time">05:35</span>
+                    <span class="songlistplay"><i id="5" class="far songitemplay fa-3x fa-circle-play"></i></span>
+                </div>
+            </div>
+        </div>
+        <div class="Songbanner"></div>
+    </div>
+    <div class="bottom">
+        <input type="range" name="range" id="myprogress" value="0" min="0" max="100">
+        <div class="icons">
+            <i class="far  fa-3x fa-solid fa-backward" id="next"></i>
+            <i class="far fa-3x fa-circle-play" id="masterplay"></i>
+            <i class="far fa-3x fa-solid  fa-forward" id="before"></i>
+        </div>
+        <div class="songinfo">
+            <img src="./music2.gif" width="100px" alt="gif" id="gif" > <span id="mastersongname"></span>
+    </div>
+    <script src="https://kit.fontawesome.com/6cbceedf81.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
